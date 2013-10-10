@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
-  s.add_dependency "oauth2", "~> 0.5.1"
+  s.add_dependency "oauth2"
 
   s.add_development_dependency "sqlite3"
 end
